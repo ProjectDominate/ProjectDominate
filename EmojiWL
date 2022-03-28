@@ -13,25 +13,25 @@ function premium()
         if StarId[v.UserId] then
             if v.Character then
                 if v.Character.Parent.Name == 'Players' then
-                    v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[:star:]'..v.DisplayName)
+                    v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[⭐]'..v.DisplayName)
                 end
             end
         elseif CrownId[v.UserId] then
             if v.Character then
                 if v.Character.Parent.Name == 'Players' then
-                    v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[:crown:]'..v.DisplayName)
+                    v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[👑]'..v.DisplayName)
                 end
             end
         elseif DiamondId[v.UserId] then
             if v.Character then
                 if v.Character.Parent.Name == 'Players' then
-                    v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[:gem:]'..v.DisplayName)
+                    v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[💎]'..v.DisplayName)
                 end
             end
         elseif v.Character then
             if v.Character.Parent.Name == 'Players' then
                 if not v.Character.UpperTorso:FindFirstChild('LeftCollarAttachment') then
-                    v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[:slight_smile:]'..v.DisplayName)
+                    v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[💀]'..v.DisplayName)
                 end
             end
         end
